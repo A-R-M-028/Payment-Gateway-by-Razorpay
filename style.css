@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragraph{
+  font-size: 1.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+.container{
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ),
+          url("images/2.jpg");
+    background-size: cover;
+}
+.navbar{
+    margin-top: 50px;
+    width: 100%;
+    position: sticky;
+}
+.headText {
+    margin-left: 2rem;
+    margin-top: 15px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    transition: opacity 250ms ease;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    float: right;
+    /* width: 30%; */
+    margin-left: auto;
+}
+.navlinks li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms ease;
+    letter-spacing: normal;
+}
+.navlinks a:hover {
+    color: rgb(50, 81, 62);
+    transition: all 250ms ease;
+}
+.navlinks a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.highlightedtext {
+    color:rgb(20, 175, 165);
+}
+#donate {
+    font-size: 20px;
+    padding: 16px;
+    margin: 12px;
+    margin-top: 1rem;
+    background-color: rgb(255, 174, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 300ms ease;
+}
+#donate:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 3px 3px 0 black;
+    transition: 300ms ease;
+}
+
+#hero {
+  position: relative;
+  overflow: hidden;
+}
+.mission{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.intro p{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+.intro{
+  margin: 10px 50px 300px;
+}
+
+.sticky {
+    background-color: rgb(57, 57, 57);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 2px 3px 5px #00000042;
+  }
+
+
+/* about responsive */
+
+#about h1{
+    color: black;
+    padding-bottom: 1rem;
+}
+#about {
+    color: black;
+    flex-direction: column;
+  }
+
+  #about .about-left img {
+    max-height: 380px;
+  }
+
+  #about .about-right {
+    color: black;
+    display: inline-block;
+  }
+
+  #about .about-right h1 {
+    font-size: 2rem;
+  }
+
+  #about .about-right h1::after {
+    margin-bottom: 10px;
+  }
+
+  /* #about .about-right p {
+    font-size: 1rem;
+    margin:1rem;
+  } */
+footer{
+    background-color:rgb(57, 57, 57);
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+#foot{
+    padding: 2% 2%;
+    text-align: center;
+}
+.social_icon{
+  margin: 20px 10px;
+}
