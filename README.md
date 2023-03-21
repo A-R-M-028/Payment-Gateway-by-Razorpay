@@ -9,3 +9,4 @@ credit card, Paypal, etc.
 ◇ Once the payment is done and invoice will be generated and
 email will be sent to the user for the payment received. The
 invoice will contain the amount.
+![Screenshot (408)-min](https://user-images.githubusercontent.com/108628536/226688625-ee15c6a6-af90-45c2-848a-460d068f8d3d.png)
